@@ -126,7 +126,6 @@ function MyApplication() {
      * @returns {undefined}
      */
     this.route = function() {
-        alert(window.location.hash);
         window.navigator.compass.clearWatch(compassWatchId);
         window.navigator.geolocation.clearWatch(locationWatchId);
         var _h = window.location.hash || "#undefinedAction";
